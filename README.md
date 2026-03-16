@@ -25,7 +25,7 @@ STEP 8: Use heatmap method of representation to show relationships between two v
 ## CODING AND OUTPUT
 import pandas as pd
 
-df=pd.read_csv(r"C:\Users\MIRDULA\Downloads\titanic_dataset.csv")
+df=pd.read_csv("D:\titanic_dataset.csv")
 
 df
 <img width="1310" height="504" alt="image" src="https://github.com/user-attachments/assets/085f367a-b228-4a2a-80c2-bfdbf00f168e" />
@@ -169,4 +169,4 @@ pt=sns.boxplot(ax=ax1,x='Pclass',y='Age',hue='Gender',data=df)
 
 
 # RESULT
-        <<INCLUDE YOUR RESULT HERE>>
+Thus the exploratory data analysis is performed.
